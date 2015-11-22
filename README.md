@@ -65,3 +65,18 @@ This is a server based on **Loopback** and **Mongodb**.
 * Scaffolding your first react application
 
 ![alt text](./docs/react.png)
+
+## Step 4: Making layout and use CSS
+
+* Install css loader
+
+*see loader.js webpack config file for more details*
+
+```javascript
+"css-loader"
+"sass-loader"
+"style-loader"
+"normalize.css"
+```
+
+* Building `Header.jsx` and `Footer.jsx`using react and css
