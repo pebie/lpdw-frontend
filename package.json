@@ -1,0 +1,25 @@
+{
+  "name": "comics-book-library",
+  "version": "0.0.0",
+  "description": "My super comics book library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pebie/lpdw-frontend.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack",
+    "mongo"
+  ],
+  "author": "Pebie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pebie/lpdw-frontend/issues"
+  },
+  "homepage": "https://github.com/pebie/lpdw-frontend#readme"
+}
