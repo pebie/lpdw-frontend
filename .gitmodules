@@ -1,0 +1,3 @@
+[submodule "pebie-server"]
+	path = pebie-server
+	url = git@github.com:pebie/pebie-server.git
