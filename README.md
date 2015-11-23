@@ -80,3 +80,19 @@ This is a server based on **Loopback** and **Mongodb**.
 ```
 
 * Building `Header.jsx` and `Footer.jsx`using react and css
+
+## Step 5: Building comics item components
+
+* Install image loader
+
+```javascript
+"file-loader"
+"image-webpack-loader"
+```
+* Create a component `Comics` that will wrap `ComicsItem`
+* Use system grid or flex css to display multiple item in a grid
+* Create a rollover effect on `Comics Item` by using the state
+
+![alt text](./docs/cover.png)
+
+*Data should be hard coded for this step*

@@ -1,1 +1,12 @@
 @import "~normalize.css/";
+a {
+  color: white;
+  &:link, &visites, &:hover, &:active{
+    color: white
+  }
+}
+
+p{
+  margin: 0;
+  padding: 0
+}
