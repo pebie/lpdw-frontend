@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 
 class ComicsItem extends Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       over: false
@@ -10,7 +10,7 @@ class ComicsItem extends Component {
   }
 
   //Using state to change component behavior
-  toggleState(){
+  toggleState() {
     this.setState({
       over : !this.state.over
     });
@@ -18,7 +18,7 @@ class ComicsItem extends Component {
 
   render() {
 
-    let { className, imageUrl } = this.props;
+    let { className, imageUrl, comic } = this.props;
     let overClass = this.state.over ? 'overlay overlay--over' : 'overlay';
 
     return (
@@ -28,9 +28,9 @@ class ComicsItem extends Component {
         <a href="#">
            <img src={imageUrl}/>
            <div className={overClass}>
-             <p>SERIE</p>
-             <p>NAME</p>
-             <p>PAGE COUNT</p>
+             <p>{comic.name}</p>
+             <p className="serie">{comic.serie}</p>
+             <p className="page-count">{comic.pageCount} pages</p>
            </div>
         </a>
       </div>
@@ -40,7 +40,8 @@ class ComicsItem extends Component {
 
 //Using props to pass data between component
 ComicsItem.propTypes = {
-    imageUrl:    PropTypes.string.isRequired
+    imageUrl:    PropTypes.string.isRequired,
+    comic:       PropTypes.string
 };
 
 export default ComicsItem;

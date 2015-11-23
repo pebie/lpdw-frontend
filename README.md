@@ -148,3 +148,12 @@ mongoexport --host 127.0.0.1 --port 27017 --collection comics --db test --out co
 ```javascript
 mongoimport --host 127.0.0.1 --port 27017 --collection comics --db test --file comics-db.json
 ```
+
+## Step 7: Make ComicsItem dynamic
+
+  * fetch data from `/api/comics` using get method
+  * display each comic details in `ComicsItem` component
+  * using `lodash`
+  * esthetic stuff
+
+![alt text](./docs/step7.png)
