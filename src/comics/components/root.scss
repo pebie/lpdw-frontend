@@ -1,4 +1,7 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import "~normalize.css/";
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
 a {
   color: white;
   &:link, &visites, &:hover, &:active{
@@ -9,4 +12,18 @@ a {
 p{
   margin: 0;
   padding: 0
+}
+
+body{
+  background: black;
+}
+
+.wrapper{
+  padding: 60px 0;
+}
+
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
 }
