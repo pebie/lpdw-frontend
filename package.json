@@ -1,0 +1,22 @@
+{
+  "name": "lpdw-frontend",
+  "version": "1.0.0",
+  "description": "Toto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pebie/lpdw-frontend.git"
+  },
+  "keywords": [
+    "toto"
+  ],
+  "author": "Mikael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pebie/lpdw-frontend/issues"
+  },
+  "homepage": "https://github.com/pebie/lpdw-frontend#readme"
+}
